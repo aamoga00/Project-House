@@ -67,7 +67,7 @@ public class Picture
         sun = new Circle();
         sun.changeColor("blue");
         sun.moveHorizontal(100);
-        sun.moveVertical(-30);
+        sun.moveVertical(-60);
         sun.changeSize(80);
         sun.makeVisible();
       
@@ -111,6 +111,9 @@ public void moveSun()
 {
         sun.slowMoveVertical(-50);
         sun.slowMoveVertical(50);
+        
+        wall.changeColor("black");
+        
         
 }
 }

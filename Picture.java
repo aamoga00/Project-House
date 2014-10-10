@@ -104,4 +104,13 @@ public class Picture
             
         }
     }
+ /**
+ * Move Sun
+ */
+public void moveSun()
+{
+        sun.slowMoveVertical(-50);
+        sun.slowMoveVertical(50);
+        
+}
 }

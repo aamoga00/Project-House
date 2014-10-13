@@ -113,6 +113,7 @@ public void moveSun()
         sun.slowMoveVertical(50);
         
         wall.changeColor("black");
+        suelo.changeColor("black");
         
         
 }

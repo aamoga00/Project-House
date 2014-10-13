@@ -115,6 +115,7 @@ public void moveSun()
         wall.changeColor("black");
         suelo.changeColor("black");
         roof.changeColor("black");
+        window.changeColor("white");
         
         
 }

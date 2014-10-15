@@ -72,12 +72,7 @@ public class Picture
         sun.changeSize(80);
         sun.makeVisible();
         
-        person1 = new Person();
-        person1.changeColor ("black");
-        person1.moveHorizontal(-200);
-        person1.moveVertical(40);
-        person1.changeSize(50,30);
-        person1.makeVisible();
+       
       
       
     }
@@ -132,7 +127,14 @@ public void moveSun()
  */
 public void movePerson()
 {
-    person1.slowMoveHorizontal(150);
+    person1 = new Person();
+    person1.changeColor ("black");
+    person1.moveHorizontal(-300);
+    person1.moveVertical(40);
+    person1.changeSize(50,30);
+    person1.makeVisible();
+    
+    person1.slowMoveHorizontal(200);
     person1.slowMoveVertical(-20);
 }
 }

@@ -79,7 +79,7 @@ public class Picture
         person1.changeSize(50,30);
         person1.makeVisible();
       
-        
+      
     }
 
     /**
@@ -126,5 +126,13 @@ public void moveSun()
         window.changeColor("white");
         
         
+}
+/**
+ * Move Person
+ */
+public void movePerson()
+{
+    person1.slowMoveHorizontal(150);
+    person1.slowMoveVertical(-20);
 }
 }

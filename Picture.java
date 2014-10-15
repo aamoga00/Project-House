@@ -17,7 +17,8 @@ public class Picture
     private Circle sun;
     private Circle sun2;
     private Circle suelo;
-   
+    private Person person1;
+  
     /**
      * Constructor for objects of class Picture
      */
@@ -70,6 +71,13 @@ public class Picture
         sun.moveVertical(-60);
         sun.changeSize(80);
         sun.makeVisible();
+        
+        person1 = new Person();
+        person1.changeColor ("black");
+        person1.moveHorizontal(-200);
+        person1.moveVertical(40);
+        person1.changeSize(50,30);
+        person1.makeVisible();
       
         
     }
